@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro02-PCD</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./img/favicon-96x96.png" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1 id="Titulo">Crie sua conta</h1>
+            <p id="Subtitulo">Preencha seus dados</p>
+
+            <label for="" class="tituloDados">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+<br>
+            <label for="" class="tituloDados">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu E-mail" required> 
+<br>
+            <label for="" class="tituloDadosCPF">CPF:</label>
+            <input type="text" id="CPF" maxlength="12" class="campoDados" placeholder="Digite seu CPF" required>
+<br>           
+            <label for="" class="tituloDados">Senha:</label>
+            <input type="password" id="senha" maxlength="9" placeholder="Digite sua senha" required>
+<br>
+            <label for="" class="tituloDadosConf">Confirme sua senha:</label>
+            <input type="password" id="senhaconfir" maxlength="9" placeholder="Digite sua senha novamente" required>
+<br>            
+           <a href="../Comentarios/comentario_PCD/"><button type="submit"onclick="validaCadastro()">Cadastra</button></a>
+            
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

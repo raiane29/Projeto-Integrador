@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+body{
+    text-align: center;
+    background-color: #9D1C6A;
+}
+
+section{
+    align-items: center;
+}
+
+.container{
+    font-family: 'Signika Negative', sans-serif;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-right:600px;
+    border-radius: 4%;
+    align-items: center;
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 570px;
+    height: 600px;
+}
+
+#Titulo{
+font-size: 40px;
+}
+
+#Subtitulo{
+    color: rgba(0, 0, 0, 0.712);
+font-size: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.tituloDados{
+    margin-right: 320px;
+    font-size: 20px;
+}
+
+.tituloDadosCPF{
+    margin-right: 335px;
+    font-size: 20px;
+}
+
+.tituloDadosConf{
+    margin-right: 210px;
+    font-size: 20px;
+}
+
+input{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+    border: none;
+    background-color: rgb(180, 174, 174);
+    border-radius: 10px;
+    width: 390px;
+    height: 40px;
+    outline: none;
+    padding: 0px 50px 0px 20px;
+}
+
+button{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color:rgb(180, 174, 174);
+ }
+  
+ ::placeholder{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 17px;
+ }

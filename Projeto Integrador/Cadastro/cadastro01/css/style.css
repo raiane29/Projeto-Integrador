@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+body{
+    text-align: center;
+    background-color: #9D1C6A;
+}
+.container{
+    margin-top: 130px;
+    margin-left: 590px;
+    margin-right:450px;
+    border-radius: 4%;
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 670px;
+    height: 700px;
+}
+.titulo{
+    font-family: 'Signika Negative', sans-serif;
+font-size: 40px;
+}
+.subtitulo{
+    font-family: 'Signika Negative', sans-serif;
+    color: rgba(0, 0, 0, 0.712);
+font-size: 20px;
+}
+.associacaoButton{
+    font-family: 'Signika Negative', sans-serif;
+    border-color: #979797;
+    border-radius: 30px;
+    color: white;
+    background-color: #979797;
+    font-size: 23px;
+    width: 350px;
+    height: 63px;;
+}
+.comunidadeButton{
+    font-family: 'Signika Negative', sans-serif;
+    border-color: #979797;
+    border-radius: 30px;
+    font: bolder;
+    color: white;
+    background-color: #979797;
+    font-size: 23px;
+    width: 350px;
+    height: 63px;
+}
+.pcdButton{
+    font-family: 'Signika Negative', sans-serif;
+    border-color: #979797;
+    border-radius: 30px;
+    color: white;
+    background-color: #979797;
+    font-size: 23px;
+    width: 350px;
+    height: 63px;
+}
+.parenteButton{
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 30px;
+    color: white;
+    background-color: #979797;
+    font-size: 23px;
+    width: 350px;
+    height: 63px;
+}

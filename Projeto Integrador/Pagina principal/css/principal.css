@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e7cfcf;
+  }
+  
+  .p1{
+    font-family: 'Signika Negative', sans-serif;
+  }
+
+  .p2{
+    font-family: 'Signika Negative', sans-serif;
+  }
+
+  .p3{
+    font-family: 'Signika Negative', sans-serif;
+  }
+
+  .navbar {
+    background-color: rgb(151, 40, 99);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .logo span {
+    font-size: 1.2em;
+  }
+  
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    font-family: 'Signika Negative', sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #221e1d;
+    color: white;
+    cursor: pointer ;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    font-family: 'Signika Negative', sans-serif;
+    margin-right: 15px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    background-color: #221e1d;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+
+.conteudo {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  align-items: center;
+  padding: 50px;
+  /* max-width: 1300px; */
+}
+
+.conteudo-img {
+  display: inline-block;
+  width: 450px;
+  height: 630px;
+}
+
+.conteudo-texto {
+  flex: auto;
+  margin-left: 120px;
+  /* font-size: 150%; */
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.destacado {
+  font-family: 'Signika Negative', sans-serif;
+  color: #FFF;
+  border: 2px solid rgb(151, 40, 99);
+  border-radius: 30px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 rgb(151, 40, 99);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.destacado:hover {
+  box-shadow: inset 0 100px 0 0 rgb(151, 40, 99);
+}
+
+/* Estilo do link de login */
+.conteudo-texto a {
+  text-decoration: double;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: rgb(151, 40, 99);
+  padding: 20px;
+  text-align: center;
+}
+.contato {
+  float: left;
+  text-align: left;
+  color: white;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 100px;
+}
+.siga-nos {
+  float: right;
+  text-align: right;
+  color: white;
+  margin-right: 5px;
+}
+.telefone {
+  margin-top: 5px;
+}
+.parceiros {
+  margin-top: 10px;
+}
+.parceiros img {
+  width: 30px;
+  margin: 0 5px;
+}
+
+.direitos-autorais {
+  clear: both;
+  margin-top: 20px;
+  font-size: 12px;
+  color: white;
+}

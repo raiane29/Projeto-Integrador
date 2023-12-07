@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    text-align: center;
+    background-color: #e7cfcf;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    background-color: #9D1C6A;
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+#Titulo{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 40px;
+}
+
+textarea{
+    font-family: 'Signika Negative', sans-serif;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 390px;
+    height: 120px;
+    outline: none;
+    padding: 10px 50px 0px 20px;
+    margin-left: 470px;
+    margin-top: 5px;
+}
+
+button{
+    font-family: 'Signika Negative', sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-left: 590px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color:#46082D;
+}
+
+.tituloDados{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+}
+
+::placeholder{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 17px;
+ }
+
+span{
+    color: aliceblue;
+    padding-top: 35px;
+    font-size: 19.2px;
+}
+
+.container-imagem{
+    text-align: center;
+}
+
+.img{
+    margin-top: 20px;
+    width: 300px,;
+    height: 300px;
+}
+
+
+.caixas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-conteudo{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    border: black;
+    text-align: center;
+}
+
